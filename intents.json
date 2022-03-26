@@ -1,0 +1,33 @@
+{"intents": [
+  {"tag": "greeting",
+    "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up", "Hey", "greetings"],
+    "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"],
+    "context_set": ""
+  },
+  {"tag": "goodbye",
+    "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day", "bye", "cao", "see ya"],
+    "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"],
+    "context_set": ""
+  },
+  {"tag": "stocks",
+    "patterns": ["what stocks do I own?", "how are my shares?", "what companies am I investing in?", "what am I doing in the markets?"],
+    "responses": ["You own the following shares: ABBV, AAPL, FB, NVDA and an ETF of the S&P 500 Index!"],
+    "context_set": ""
+  },
+  {"tag": "name",
+    "patterns": ["what is your name?", "how do I address you?", "how do I call you?", "Name?", "What's your name?"],
+    "responses": ["I am xxx!", "Call me xxx!", "xxx!"],
+    "context_set": ""
+  },
+  {"tag": "shop",
+    "patterns": ["I am hungry", "I need to buy something", "I want food", "I am thirsty", "Give me something to eat", "I want to eat", "I want snacks", "I need to eat"],
+    "responses": ["Let me go get my wallet", "Me too!", "I'll buy some snacks for you!", "I'll get some drinks for you", "Let's go to a grocery store"],
+    "context_set": ""
+  },
+  {"tag": "age",
+    "patterns": ["How old are you", "what's your age", "Age?", "When were you born?"],
+    "responses": ["I am 1 yr old!", "Same age as you!", "Just born hehe"],
+    "context_set": ""
+  }
+]
+}
